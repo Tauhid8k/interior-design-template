@@ -1,0 +1,17 @@
+{
+  "name": "interior_design",
+  "version": "1.0.0",
+  "description": "Interior Design Website With Tailwindcss",
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url ./"
+  },
+  "author": "Md. Tauhid",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "parcel": "^2.8.3",
+    "tailwindcss": "^3.2.4"
+  }
+}

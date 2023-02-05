@@ -1,0 +1,26 @@
+/* --- Tailwindcss Directives --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Default Styles --- */
+body {
+  @apply font-jost font-normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-ds font-normal;
+}
+
+.btn {
+  @apply font-jost font-semibold text-lg text-white capitalize leading-[22.5px] tracking-[calc(2*0.01em)] bg-dark p-[26px_54px] rounded-[18px] flex items-center space-x-2;
+}
+
+.btn-primary {
+  @apply bg-primary;
+}
