@@ -21,6 +21,7 @@ module.exports = {
         primary: "#CDA274",
         secondary: "#F4F0EC",
         dark: "#292F36",
+        gray: "#4D5053",
       },
       fontFamily: {
         jost: "'Jost', sans-serif",

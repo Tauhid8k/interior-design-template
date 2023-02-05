@@ -23,8 +23,8 @@
           <a href="" class="logo">
             <img src="icons/logo.svg" alt="" />
           </a>
-          <!-- Navigation -->
-          <ul class="flex items-center space-x-[50px]">
+          <!-- Desktop Navigation -->
+          <ul class="hidden lg:flex items-center space-x-[50px]">
             <li>
               <a
                 href=""
@@ -95,11 +95,62 @@
               </button>
             </li>
           </ul>
-          <!-- Navigation End -->
+          <!-- Desktop Navigation End -->
+
+          <!-- Mobile Navigation -->
+          <button class="lg:hidden">
+            <img src="icons/menu_icon.svg" width="50" alt="" />
+          </button>
+          <!-- Mobile Navigation End -->
         </div>
       </nav>
     </header>
     <!-- Header End -->
+
+    <!-- Hero Section -->
+    <section>
+      <div class="container">
+        <!-- Hero Wrapper -->
+        <div
+          class="min-h-[570px] lg:min-h-[706px] flex items-center bg-cover bg-center bg-no-repeat rounded-[70px] p-[52px]"
+          style="background-image: url('./images/banner.png')"
+        >
+          <!-- Hero Text -->
+          <div class="sm:w-[435px]">
+            <h1 class="text-[65px] leading-[81.25px] mb-[18px]">
+              Let Your Home Be Unique
+            </h1>
+            <p
+              class="text-[22px] text-gray leading-[33px] tracking-[0.01em] mb-[21px]"
+            >
+              There are many variations of the passages of lorem Ipsum from
+              available, majority.
+            </p>
+            <a href="" class="btn">
+              <span>get started</span>
+              <svg
+                width="19"
+                height="17"
+                viewBox="0 0 19 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 8.43536L15.7232 8.29851M10.6182 1.91132L17.1412 8.4343L10.4868 15.0887"
+                  stroke="#CDA274"
+                  stroke-width="2"
+                  stroke-linecap="square"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <!-- Hero Text End -->
+        </div>
+        <!-- Hero Wrapper End -->
+      </div>
+    </section>
+    <!-- Hero Section End -->
 
     <script src="./js/index.js"></script>
   </body>
