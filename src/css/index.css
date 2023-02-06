@@ -30,5 +30,5 @@ a {
 }
 
 .btn {
-  @apply font-jost font-semibold text-lg text-white capitalize leading-[22.5px] tracking-[0.02em] bg-dark p-[26px_54px] rounded-[18px] flex items-center w-fit space-x-2;
+  @apply font-jost font-semibold text-lg text-white whitespace-nowrap capitalize leading-[22.5px] tracking-[0.02em] bg-dark p-[26px_54px] rounded-[18px] flex items-center w-fit space-x-2;
 }

@@ -94,19 +94,23 @@
       <div class="container">
         <!-- Hero Wrapper -->
         <div
-          class="min-h-[570px] lg:min-h-[706px] flex items-center bg-cover bg-left md:bg-center bg-no-repeat rounded-[70px] p-[52px]"
+          class="min-h-[470px] sm:min-h-[570px] lg:min-h-[706px] flex items-center bg-cover bg-left md:bg-center bg-no-repeat rounded-[25px] md:rounded-[70px] p-[52px]"
           style="background-image: url('./images/banner.png')"
         >
           <!-- Hero Text -->
           <div class="sm:w-[435px]">
-            <h1 class="text-[65px] leading-[81.25px] mb-[18px]">
+            <h1
+              class="text-[50px] leading-[62.5px] text-center sm:text-left sm:text-[65px] sm:leading-[81.25px] mb-[18px]"
+            >
               Let Your Home Be Unique
             </h1>
-            <p class="text-[22px] leading-[33px] tracking-[0.01em] mb-[21px]">
+            <p
+              class="text-[22px] leading-[33px] text-center sm:text-left tracking-[0.01em] mb-[21px]"
+            >
               There are many variations of the passages of lorem Ipsum from
               available, majority.
             </p>
-            <a href="" class="btn">
+            <a href="" class="btn mx-auto sm:mx-0">
               <span>get started</span>
               <svg
                 width="19"
@@ -135,7 +139,9 @@
     <!-- Work Section -->
     <section class="my-[100px]">
       <div class="container">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-14 md:gap-5 lg:gap-[42px]"
+        >
           <!-- Item -->
           <div class="flex flex-col text-center md:max-lg:text-left">
             <h3 class="text-[25px] leading-[31.25px] mb-5">project plan</h3>
@@ -227,6 +233,72 @@
       </div>
     </section>
     <!-- Work Section End -->
+
+    <!-- About Us Section -->
+    <section class="mb-[100px]">
+      <div class="container">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 md:items-start lg:items-center gap-10 lg:gap-[75px]"
+        >
+          <div class="text-center md:text-left">
+            <h2
+              class="text-[40px] leading-[50px] lg:text-[50px] lg:leading-[62.5px] tracking-[0.02em] mb-[20px] lg:mb-[33px]"
+            >
+              We Create The Art Of Stylish Living Stylishly
+            </h2>
+            <p
+              class="text-[18px] leading-[27px] lg:text-[22px] lg:leading-[33px] tracking-[0.01em] mb-[25px] lg:mb-[45px]"
+            >
+              It is a long established fact that a reader will be distracted by
+              the of readable content of a page when looking at its layouts the
+              points of using that it has a more-or-less normal.
+            </p>
+            <a
+              href="tel:012345678"
+              class="flex items-center justify-center md:justify-start space-x-[15px] mb-[25px] lg:mb-[47px]"
+            >
+              <img src="icons/call_icon.svg" alt="" />
+              <div class="flex flex-col">
+                <span
+                  class="text-[24px] leading-[36px] tracking-[0.01em] text-gray font-bold"
+                >
+                  012345678
+                </span>
+                <span class="text-[22px] leading-[33px] tracking-[0.01em]">
+                  Call Us Anytime
+                </span>
+              </div>
+            </a>
+            <a href="" class="btn mx-auto md:mx-0">
+              <span>get free estimate</span>
+              <svg
+                width="19"
+                height="17"
+                viewBox="0 0 19 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 8.43536L15.7232 8.29851M10.6182 1.91132L17.1412 8.4343L10.4868 15.0887"
+                  stroke="#CDA274"
+                  stroke-width="2"
+                  stroke-linecap="square"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="h-[700px] hidden md:block">
+            <img
+              src="images/about_img.png"
+              class="object-cover max-h-full w-full rounded-tr-[150px] rounded-bl-[75px] lg:rounded-tr-[326px] lg:rounded-bl-[123px]"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us Section End -->
 
     <script src="./js/index.js"></script>
   </body>
