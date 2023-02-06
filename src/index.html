@@ -20,7 +20,7 @@
       <nav>
         <div class="container flex justify-between">
           <!-- Logo -->
-          <a href="" class="logo">
+          <a href="" class="logo" role="navigation" aria-label="Homepage">
             <img src="icons/logo.svg" alt="" />
           </a>
           <!-- Desktop Navigation -->
@@ -56,7 +56,7 @@
               </a>
             </li>
             <li>
-              <button class="group flex items-center">
+              <button class="group flex items-center" aria-label="search">
                 <svg
                   class="cursor-pointer"
                   width="23"
@@ -80,7 +80,7 @@
           <!-- Desktop Navigation End -->
 
           <!-- Mobile Navigation -->
-          <button class="lg:hidden">
+          <button class="lg:hidden" aria-label="search">
             <img src="icons/menu_icon.svg" width="50" alt="" />
           </button>
           <!-- Mobile Navigation End -->
@@ -247,7 +247,7 @@
               We Create The Art Of Stylish Living Stylishly
             </h2>
             <p
-              class="text-[18px] leading-[27px] lg:text-[22px] lg:leading-[33px] tracking-[0.01em] mb-[25px] lg:mb-[45px]"
+              class="text-[18px] leading-[27px] lg:text-[22px] lg:leading-[33px] tracking-[0.01em] mb-[30px] lg:mb-[45px] line-clamp-4"
             >
               It is a long established fact that a reader will be distracted by
               the of readable content of a page when looking at its layouts the
@@ -255,7 +255,7 @@
             </p>
             <a
               href="tel:012345678"
-              class="flex items-center justify-center md:justify-start space-x-[15px] mb-[25px] lg:mb-[47px]"
+              class="flex items-center justify-center md:justify-start space-x-[15px] mb-[30px] lg:mb-[47px]"
             >
               <img src="icons/call_icon.svg" alt="" />
               <div class="flex flex-col">
@@ -300,6 +300,199 @@
     </section>
     <!-- About Us Section End -->
 
-    <script src="./js/index.js"></script>
+    <!-- Testimonial Section -->
+    <section class="mb-[100]">
+      <div class="container">
+        <div
+          class="bg-secondary p-[88px_25px] rounded-[25px] md:rounded-[70px]"
+        >
+          <!-- Heading -->
+          <div class="md:w-[565px] mx-auto">
+            <h2
+              class="text-[40px] leading-[50px] md:text-[50px] md:leading-[62.5px] tracking-[0.02em] text-center mb-[38px]"
+            >
+              What the People Thinks About Us
+            </h2>
+          </div>
+
+          <!-- Testimonial Slider -->
+          <div class="splide" role="group">
+            <div class="splide__track">
+              <div class="splide__list">
+                <!-- Item -->
+                <div
+                  class="bg-white rounded-[18px] p-[53px_37px] splide__slide"
+                >
+                  <div class="flex items-center space-x-[23px] mb-[25px]">
+                    <img src="images/testimonial_01.png" alt="" />
+                    <div class="flex flex-col overflow-hidden">
+                      <h4
+                        class="text-[25px] leading-[37.5px] tracking-[0.01em] truncate"
+                      >
+                        Nattasha Mith
+                      </h4>
+                      <span
+                        class="text-[18px] leading-[27px] tracking-[0.01em] text-gray truncate"
+                      >
+                        Sydney, USA
+                      </span>
+                    </div>
+                  </div>
+                  <p
+                    class="text-[22px] leading-[33px] tracking-[0.01em] line-clamp-3"
+                  >
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere perspiciatis voluptatem velit accusantium adipisci
+                    dolorum necessitatibus aut possimus placeat consectetur.
+                  </p>
+                </div>
+
+                <!-- Item -->
+                <div
+                  class="bg-white rounded-[18px] p-[53px_37px] splide__slide"
+                >
+                  <div class="flex items-center space-x-[23px] mb-[25px]">
+                    <img src="images/testimonial_02.png" alt="" />
+                    <div class="flex flex-col overflow-hidden">
+                      <h4
+                        class="text-[25px] leading-[37.5px] tracking-[0.01em] truncate"
+                      >
+                        Raymond Galario
+                      </h4>
+                      <span
+                        class="text-[18px] leading-[27px] tracking-[0.01em] text-gray truncate"
+                      >
+                        Sydney, Australia
+                      </span>
+                    </div>
+                  </div>
+                  <p
+                    class="text-[22px] leading-[33px] tracking-[0.01em] line-clamp-3"
+                  >
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere perspiciatis voluptatem velit accusantium adipisci
+                    dolorum necessitatibus aut possimus placeat consectetur.
+                  </p>
+                </div>
+
+                <!-- Item -->
+                <div
+                  class="bg-white rounded-[18px] p-[53px_37px] splide__slide"
+                >
+                  <div class="flex items-center space-x-[23px] mb-[25px]">
+                    <img src="images/testimonial_03.png" alt="" />
+                    <div class="flex flex-col overflow-hidden">
+                      <h4
+                        class="text-[25px] leading-[37.5px] tracking-[0.01em] truncate"
+                      >
+                        Benny Roll
+                      </h4>
+                      <span
+                        class="text-[18px] leading-[27px] tracking-[0.01em] text-gray truncate"
+                      >
+                        Sydney, New York
+                      </span>
+                    </div>
+                  </div>
+                  <p
+                    class="text-[22px] leading-[33px] tracking-[0.01em] line-clamp-3"
+                  >
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere perspiciatis voluptatem velit accusantium adipisci
+                    dolorum necessitatibus aut possimus placeat consectetur.
+                  </p>
+                </div>
+                <!-- Item -->
+                <div
+                  class="bg-white rounded-[18px] p-[53px_37px] splide__slide"
+                >
+                  <div class="flex items-center space-x-[23px] mb-[25px]">
+                    <img src="images/testimonial_01.png" alt="" />
+                    <div class="flex flex-col overflow-hidden">
+                      <h4
+                        class="text-[25px] leading-[37.5px] tracking-[0.01em] truncate"
+                      >
+                        Nattasha Mith
+                      </h4>
+                      <span
+                        class="text-[18px] leading-[27px] tracking-[0.01em] text-gray truncate"
+                      >
+                        Sydney, USA
+                      </span>
+                    </div>
+                  </div>
+                  <p
+                    class="text-[22px] leading-[33px] tracking-[0.01em] line-clamp-3"
+                  >
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere perspiciatis voluptatem velit accusantium adipisci
+                    dolorum necessitatibus aut possimus placeat consectetur.
+                  </p>
+                </div>
+
+                <!-- Item -->
+                <div
+                  class="bg-white rounded-[18px] p-[53px_37px] splide__slide"
+                >
+                  <div class="flex items-center space-x-[23px] mb-[25px]">
+                    <img src="images/testimonial_02.png" alt="" />
+                    <div class="flex flex-col overflow-hidden">
+                      <h4
+                        class="text-[25px] leading-[37.5px] tracking-[0.01em] truncate"
+                      >
+                        Raymond Galario
+                      </h4>
+                      <span
+                        class="text-[18px] leading-[27px] tracking-[0.01em] text-gray truncate"
+                      >
+                        Sydney, Australia
+                      </span>
+                    </div>
+                  </div>
+                  <p
+                    class="text-[22px] leading-[33px] tracking-[0.01em] line-clamp-3"
+                  >
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere perspiciatis voluptatem velit accusantium adipisci
+                    dolorum necessitatibus aut possimus placeat consectetur.
+                  </p>
+                </div>
+
+                <!-- Item -->
+                <div
+                  class="bg-white rounded-[18px] p-[53px_37px] splide__slide"
+                >
+                  <div class="flex items-center space-x-[23px] mb-[25px]">
+                    <img src="images/testimonial_03.png" alt="" />
+                    <div class="flex flex-col overflow-hidden">
+                      <h4
+                        class="text-[25px] leading-[37.5px] tracking-[0.01em] truncate"
+                      >
+                        Benny Roll
+                      </h4>
+                      <span
+                        class="text-[18px] leading-[27px] tracking-[0.01em] text-gray truncate"
+                      >
+                        Sydney, New York
+                      </span>
+                    </div>
+                  </div>
+                  <p
+                    class="text-[22px] leading-[33px] tracking-[0.01em] line-clamp-3"
+                  >
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Facere perspiciatis voluptatem velit accusantium adipisci
+                    dolorum necessitatibus aut possimus placeat consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial Section End -->
+
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>

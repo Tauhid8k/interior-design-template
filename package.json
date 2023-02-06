@@ -14,5 +14,8 @@
     "@tailwindcss/line-clamp": "^0.4.2",
     "parcel": "^2.8.3",
     "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4"
   }
 }
