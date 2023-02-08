@@ -1,10 +1,12 @@
 {
   "name": "interior_design",
+  "source": "src/index.html",
   "version": "1.0.0",
   "description": "Interior Design Website With Tailwindcss",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "cleanup": "rmdir /q /s .parcel-cache dist",
-    "dev": "npm run cleanup && parcel serve ./src/index.html",
+    "dev": "parcel serve ./src/index.html",
     "build": "parcel build ./src/index.html --public-url ./"
   },
   "author": "Md. Tauhid",
