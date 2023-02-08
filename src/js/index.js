@@ -1,7 +1,9 @@
-// Splide.js for Testimonial Slider
+// Splide.js
 import Splide from "@splidejs/splide";
 import "@splidejs/splide/dist/css/splide.min.css";
-new Splide(".splide", {
+
+// Testimonial Slider
+new Splide(".testimonial-slider", {
   type: "loop",
   perPage: 3,
   perMove: 1,
@@ -15,6 +17,29 @@ new Splide(".splide", {
       perPage: 2,
     },
     768: {
+      perPage: 1,
+    },
+  },
+}).mount();
+
+// Brand Slider
+new Splide(".brand-slider", {
+  type: "loop",
+  perPage: 5,
+  perMove: 1,
+  gap: 108,
+  arrows: false,
+  pagination: false,
+  autoplay: true,
+  interval: 1500,
+  breakpoints: {
+    992: {
+      perPage: 3,
+    },
+    768: {
+      perPage: 2,
+    },
+    576: {
       perPage: 1,
     },
   },
