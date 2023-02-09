@@ -32,6 +32,7 @@ new Splide(".brand-slider", {
   pagination: false,
   autoplay: true,
   interval: 1500,
+  pauseOnHover: false,
   breakpoints: {
     992: {
       perPage: 3,
