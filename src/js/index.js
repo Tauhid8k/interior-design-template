@@ -1,6 +1,9 @@
-// Splide.js
+// Splide.js, CounterUp.js
 import Splide from "@splidejs/splide";
 import "@splidejs/splide/dist/css/splide.min.css";
+
+// CountUP JS
+import { CountUp } from "countup.js";
 
 // Testimonial Slider
 new Splide(".testimonial-slider", {
@@ -45,3 +48,17 @@ new Splide(".brand-slider", {
     },
   },
 }).mount();
+
+// Counter Section
+const counters = document.querySelectorAll(".counter"),
+  options = {
+    useGrouping: false,
+    enableScrollSpy: true,
+    scrollSpyOnce: true,
+  };
+
+counters.forEach((item) => {
+  const value = item.dataset.value;
+  const counter = new CountUp(item, value, options);
+  counter.start();
+});
